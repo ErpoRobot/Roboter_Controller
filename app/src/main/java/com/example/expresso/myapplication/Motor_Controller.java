@@ -32,6 +32,7 @@ public class Motor_Controller {
                 break;
             case backwards:
 
+                motorSpeed = -0x32;
 
                 break;
             default:
