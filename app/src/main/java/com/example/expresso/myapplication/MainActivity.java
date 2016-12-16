@@ -81,27 +81,8 @@ public class MainActivity extends Activity {
     }
 
     public void onClickSend(View view) {
-        switch (Global.test)
-        {
-            case 0:
-                Global.motorController.drive(Motor_Controller.Motor_Side.left, Motor_Controller.Driving_Direction.forwards);
-                Global.test++;
-                break;
-            case 1:
-                Global.motorController.drive(Motor_Controller.Motor_Side.right, Motor_Controller.Driving_Direction.forwards);
-                Global.test++;
-                break;
-            case 2:
-                Global.motorController.drive(Motor_Controller.Motor_Side.right, Motor_Controller.Driving_Direction.none);
-
-                Global.test++;
-                break;
-            case 3:
-                Global.motorController.drive(Motor_Controller.Motor_Side.left, Motor_Controller.Driving_Direction.none);
-                Global.test++;
-                break;
-
-        }
+        // example for left motor forwards
+        Global.motorController.drive(Motor_Controller.Motor_Side.left, Motor_Controller.Driving_Direction.forwards);
 
 
     }

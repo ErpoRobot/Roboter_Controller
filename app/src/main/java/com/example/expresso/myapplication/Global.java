@@ -14,5 +14,4 @@ public class Global {
     public static Motor_Controller motorController = new Motor_Controller();
 
 
-    public static int test = 0;
 }

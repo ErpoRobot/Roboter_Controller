@@ -9,6 +9,7 @@ public class Motor_Controller {
 
     ;
 
+    // none = motor off
     public enum Driving_Direction {forwards, backwards, none}
 
     ;
